@@ -1,12 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SplitFrame</title>
+    <link rel="stylesheet" href="style.css">
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>SplitFrame</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+    <header>
+  <nav>
+    <div class="logo">SplitFrame</div>
+    <ul class="nav-links">
+      <li><a href="#artworks">Artworks</a></li>
+      <li><a href="#diaries">Diaries</a></li>
+      <li><a href="#">Login</a></li>
+    </ul>
+  </nav>
+</header>
+
+    <nav>
+  <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">Gallery</a></li>
+    <li><a href="#">Diaries</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Login</a></li>
+  </ul>
+</nav>
+
   <header>
     <h1>Welcome to SplitFrame</h1>
     <p>Your creative space for art, diaries, and adventures.</p>
@@ -15,15 +40,36 @@
   <main>
     <p>Stay tuned — amazing things are coming!</p><main>
   <section id="artworks">
-    <h2>Featured Artworks</h2>
-    <p>Explore the creative works from our amazing community.</p>
-    <!-- Later we can add artwork thumbnails here -->
+    <section id="artworks">
+  <h2>Featured Artworks</h2>
+  <div class="art-grid">
+    <div class="art-card">
+      <img src="https://via.placeholder.com/200x200?text=Art+1" alt="Artwork 1">
+      <p>“Starlit Meadow” by User123</p>
+    </div>
+    <div class="art-card">
+      <img src="https://via.placeholder.com/200x200?text=Art+2" alt="Artwork 2">
+      <p>“The Blue Flame” by ArtMage</p>
+    </div>
+    <div class="art-card">
+      <img src="https://via.placeholder.com/200x200?text=Art+3" alt="Artwork 3">
+      <p>“Dancing Skies” by SketchNova</p>
+    </div>
+  </div>
+</section>
+
   </section>
 
   <section id="diaries">
-    <h2>Latest Diaries</h2>
-    <p>Read stories and thoughts shared by our users.</p>
-    <!-- Later we can add diary snippets here -->
+    <section id="diaries">
+  <h2>Recent Diary Entries</h2>
+  <div class="diary-list">
+    <div class="diary-snippet">“Woke up with a head full of starlight today…”</div>
+    <div class="diary-snippet">“The wind told me secrets. I promised not to tell.”</div>
+    <div class="diary-snippet">“Why do memories feel warmer than fire?”</div>
+  </div>
+</section>
+
   </section>
 </main>
 <footer>
