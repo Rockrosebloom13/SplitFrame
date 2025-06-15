@@ -1,3 +1,11 @@
+:root {
+  --purple-dark: #5A4485;
+  --purple-darker: #47366D;
+  --blue-dark: #1D2D46;
+  --blue-mid: #2D3B6A;
+  --blue-light: #384589;
+}
+
 /* --- Artwork Grid --- */
 .art-grid {
   display: grid;
@@ -92,4 +100,48 @@ nav {
 
 .nav-links li a:hover {
   color: #7cf5dd;
+  body {
+  background-color: var(--blue-dark);
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: var(--purple-dark);
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+}
+
+nav a {
+  color: var(--blue-light);
+  text-decoration: none;
+  margin-right: 1.5rem;
+  font-weight: 600;
+}
+
+nav a:hover {
+  color: var(--purple-darker);
+}
+
+h1, h2, h3 {
+  color: var(--purple-darker);
+}
+
+button {
+  background-color: var(--blue-mid);
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: var(--purple-dark);
+}
+
 }
